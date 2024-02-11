@@ -1,0 +1,24 @@
+{
+  "name": "vscode-plugins",
+  "version": "1.0.0",
+  "description": "vscode插件",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xiazhiqiang/vscode-plugins.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xiazhiqiang/vscode-plugins/issues"
+  },
+  "homepage": "https://github.com/xiazhiqiang/vscode-plugins#readme",
+  "dependencies": {
+    "generator-code": "^1.8.3",
+    "yo": "^5.0.0"
+  }
+}
