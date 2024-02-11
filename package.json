@@ -1,8 +1,11 @@
 {
+  "private": true,
   "name": "vscode-plugins",
   "version": "1.0.0",
   "description": "vscode插件",
-  "main": "index.js",
+  "workspaces": [
+    "packages/*"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -19,6 +22,7 @@
   "homepage": "https://github.com/xiazhiqiang/vscode-plugins#readme",
   "dependencies": {
     "generator-code": "^1.8.3",
-    "yo": "^5.0.0"
+    "yo": "^5.0.0",
+    "lerna": "^6.0.0"
   }
 }
