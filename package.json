@@ -7,6 +7,8 @@
     "packages/*"
   ],
   "scripts": {
+    "docs:init": "docsify init ./docs",
+    "docs:dev": "docsify serve docs",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -14,15 +16,18 @@
     "url": "git+https://github.com/xiazhiqiang/vscode-plugins.git"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Miles <xiazhiqiangcuc@126.com>",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/xiazhiqiang/vscode-plugins/issues"
   },
   "homepage": "https://github.com/xiazhiqiang/vscode-plugins#readme",
   "dependencies": {
+    "ansi-colors": "^4.1.3",
+    "docsify-cli": "^4.4.4",
     "generator-code": "^1.8.3",
-    "yo": "^5.0.0",
-    "lerna": "^6.0.0"
+    "lerna": "^6.0.0",
+    "y18n": "^5.0.8",
+    "yo": "^5.0.0"
   }
 }
