@@ -1,13 +1,10 @@
 {
   "name": "miles",
   "colors": {
-    "editor.background": "#263238",
+    "editor.background": "#fff",
     "editor.foreground": "#eeffff",
     "activityBarBadge.background": "#007acc",
     "sideBarTitle.foreground": "#bbbbbb"
-  },
-  "workbench.colorCustomizations": {
-    "titleBar.activeBackground": "#ff0000"
   },
   "tokenColors": [
     {
